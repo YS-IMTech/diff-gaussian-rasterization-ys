@@ -1,6 +1,6 @@
 # Differential Gaussian Rasterization
 
-**NOTE**: this is a modified version to support depth & alpha & objectID rendering (both forward and backward) from the [original repository](https://github.com/graphdeco-inria/diff-gaussian-rasterization). 
+**NOTE**: this is a modified version to support **Depth** & **Alpha** & **ObjectID** rendering (both forward and backward) from the [original repository](https://github.com/graphdeco-inria/diff-gaussian-rasterization). 
 
 ```python
 rendered_image, radii, rendered_depth, rendered_alpha, rendered_objects = rasterizer(
@@ -17,7 +17,6 @@ rendered_image, radii, rendered_depth, rendered_alpha, rendered_objects = raster
 ```
 
 
-Used as the rasterization engine for the paper "3D Gaussian Splatting for Real-Time Rendering of Radiance Fields". If you can make use of it in your own research, please be so kind to cite us.
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
